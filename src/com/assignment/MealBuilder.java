@@ -3,13 +3,13 @@ package com.assignment;
 public interface MealBuilder {
     void addSandwich(String str);
 
-    void addSlides(String str);
+    void addSides(String str);
 
     void addDrink(String str);
 
     void addOffer(String str);
 
-    void setPrice(String str);
+    void setPrice(double str);
 
     Meal getMeal();
 

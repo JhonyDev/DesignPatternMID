@@ -9,8 +9,8 @@ public class SandwichMealBuilder implements MealBuilder {
     }
 
     @Override
-    public void addSlides(String str) {
-
+    public void addSides(String str) {
+        meal.sidesOrder = str;
     }
 
     @Override
@@ -24,7 +24,7 @@ public class SandwichMealBuilder implements MealBuilder {
     }
 
     @Override
-    public void setPrice(String str) {
+    public void setPrice(double str) {
         meal.price = str;
     }
 

@@ -5,7 +5,7 @@ public class Meal {
     String sidesOrder;
     String drink;
     String offer;
-    String price;
+    double price;
 
     public Meal() {
     }
