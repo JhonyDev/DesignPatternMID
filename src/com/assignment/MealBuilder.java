@@ -11,6 +11,6 @@ public interface MealBuilder {
 
     void setPrice(String str);
 
-    void getMeal(String str);
+    Meal getMeal();
 
 }
